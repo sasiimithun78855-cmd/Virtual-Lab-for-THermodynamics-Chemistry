@@ -1,0 +1,36 @@
+# ---- Secrets: NEVER commit these ----
+.env
+.env.*
+!.env.example
+*.env
+.envrc
+secrets/
+secrets.json
+credentials.json
+service-account*.json
+*.pem
+*.key
+*.p12
+*.pfx
+id_rsa*
+id_ed25519*
+.npmrc
+.netlify/
+.vercel/
+
+# ---- Dependencies / build output ----
+node_modules/
+dist/
+build/
+.cache/
+
+# ---- Logs ----
+*.log
+npm-debug.log*
+
+# ---- OS / editor junk ----
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
